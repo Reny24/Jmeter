@@ -1,0 +1,85 @@
+2024-11-21 09:38:06,217 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-21 09:38:06,262 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.6.3/bin/user.properties
+2024-11-21 09:38:06,265 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.6.3/bin/system.properties
+2024-11-21 09:38:06,285 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-21 09:38:06,286 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-21 09:38:06,287 INFO o.a.j.JMeter: java.version=1.8.0_402
+2024-11-21 09:38:06,288 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-11-21 09:38:06,288 INFO o.a.j.JMeter: os.name=Linux
+2024-11-21 09:38:06,289 INFO o.a.j.JMeter: os.arch=amd64
+2024-11-21 09:38:06,290 INFO o.a.j.JMeter: os.version=5.15.133.1-microsoft-standard-WSL2
+2024-11-21 09:38:06,291 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-21 09:38:06,292 INFO o.a.j.JMeter: java.awt.headless=true
+2024-11-21 09:38:06,293 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-21 09:38:06,294 INFO o.a.j.JMeter: Available Processors =12
+2024-11-21 09:38:06,305 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-21 09:38:06,308 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-21 09:38:06,309 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.6.3
+2024-11-21 09:38:06,310 INFO o.a.j.JMeter: user.dir  =/tests
+2024-11-21 09:38:06,311 INFO o.a.j.JMeter: PWD       =/tests
+2024-11-21 09:38:06,311 INFO o.a.j.JMeter: IP: 172.20.0.3 Name: ca5ac9c1b124 FullName: ca5ac9c1b124
+2024-11-21 09:38:06,357 INFO o.a.j.s.FileServer: Default base='/tests'
+2024-11-21 09:38:06,361 INFO o.a.j.s.FileServer: Set new base='/tests'
+2024-11-21 09:38:06,625 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-11-21 09:38:06,654 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-11-21 09:38:06,661 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-11-21 09:38:06,672 INFO o.a.j.s.SaveService: Loading file: /tests/test.jmx
+2024-11-21 09:38:06,864 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-21 09:38:06,865 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-21 09:38:06,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-21 09:38:06,869 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-21 09:38:06,870 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-11-21 09:38:06,871 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-21 09:38:07,393 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-11-21 09:38:07,444 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-11-21 09:38:07,446 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-11-21 09:38:07,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-11-21 09:38:07,469 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-11-21 09:38:07,471 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-11-21 09:38:08,207 INFO o.a.j.JMeter: Running test (1732181888207)
+2024-11-21 09:38:08,294 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : User Creation Thread Group
+2024-11-21 09:38:08,295 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group User Creation Thread Group.
+2024-11-21 09:38:08,296 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-11-21 09:38:08,297 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2024-11-21 09:38:08,318 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-11-21 09:38:08,318 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-11-21 09:38:08,407 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-1
+2024-11-21 09:38:08,413 INFO o.a.j.s.FileServer: Stored: user_data.csv
+2024-11-21 09:38:08,479 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ca5ac9c1b124
+2024-11-21 09:38:08,493 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-11-21 09:38:08,497 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-11-21 09:38:08,498 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-11-21 09:38:08,499 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-11-21 09:38:08,500 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-11-21 09:38:08,737 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-1
+2024-11-21 09:38:08,738 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-1
+2024-11-21 09:38:08,898 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-2
+2024-11-21 09:38:08,919 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-2
+2024-11-21 09:38:08,923 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-2
+2024-11-21 09:38:09,395 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-3
+2024-11-21 09:38:09,401 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-3
+2024-11-21 09:38:09,402 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-3
+2024-11-21 09:38:09,894 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-4
+2024-11-21 09:38:09,900 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-4
+2024-11-21 09:38:09,901 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-4
+2024-11-21 09:38:10,394 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-5
+2024-11-21 09:38:10,400 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-5
+2024-11-21 09:38:10,401 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-5
+2024-11-21 09:38:10,893 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-6
+2024-11-21 09:38:10,897 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-6
+2024-11-21 09:38:10,898 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-6
+2024-11-21 09:38:11,392 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-7
+2024-11-21 09:38:11,395 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-7
+2024-11-21 09:38:11,395 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-7
+2024-11-21 09:38:11,890 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-8
+2024-11-21 09:38:11,895 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-8
+2024-11-21 09:38:11,895 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-8
+2024-11-21 09:38:12,389 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-9
+2024-11-21 09:38:12,395 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-9
+2024-11-21 09:38:12,396 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-9
+2024-11-21 09:38:12,889 INFO o.a.j.t.JMeterThread: Thread started: User Creation Thread Group 1-10
+2024-11-21 09:38:13,215 INFO o.a.j.t.JMeterThread: Thread is done: User Creation Thread Group 1-10
+2024-11-21 09:38:13,216 INFO o.a.j.t.JMeterThread: Thread finished: User Creation Thread Group 1-10
+2024-11-21 09:38:13,217 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-11-21 09:38:13,218 INFO o.a.j.s.FileServer: Close: user_data.csv
+2024-11-21 09:38:13,230 INFO o.a.j.r.Summariser: summary =     10 in 00:00:05 =    2.0/s Avg:    39 Min:     0 Max:   320 Err:    10 (100.00%)

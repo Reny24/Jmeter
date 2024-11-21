@@ -1,0 +1,29 @@
+version: '3'
+services:
+  user-service:
+    build:
+      context: ./user-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - jmeter-network1
+    dns:
+      - 8.8.8.8
+  jmeter-master:
+    build:
+      context: ./jmeter
+      dockerfile: Dockerfile
+    container_name: jmeter-master1
+    volumes:
+      - ./jmeter:/tests
+    networks:
+      - jmeter-network1
+    command: >
+      jmeter -n -t /tests/test.jmx -l /tests/results.jtl 
+    depends_on:
+      - user-service
+
+networks:
+  jmeter-network1:
+    driver: bridge
